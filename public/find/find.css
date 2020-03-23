@@ -1,0 +1,440 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-size: 26.67vw;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#max{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#header1{
+    width: 100%;
+    height: 0.42rem;
+}
+#shop1{
+    width: 100%;
+    overflow: auto;
+    flex: 1;
+}
+#shop::-webkit-scrollbar{
+    display: none;
+}
+#header1 div{
+    width: 3.41rem;
+    height: 0.42rem;
+    padding-left: 0.16rem;
+    padding-right: 0.16rem;    
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.42rem;
+}
+#footer1{
+    width: 100%;
+    position: fixed;
+    top: 6.15rem;
+}
+.footer-but1{
+    width: 3.75rem;
+    height: 0.55rem;
+    background-color:#f9f9f9;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-but1 div{
+    width: 0.75rem;
+    height: 0.55rem;
+    padding-top: 0.05rem;
+}
+.footer-but1 p{
+    color: black;
+    font-size: 0.12rem;
+}
+.img-one1{
+    width: 40%;
+}
+.img-two1{
+    width: 40%;
+}
+.img-three1{
+    width: 40%;
+}
+.img-four1{
+    width: 40%;
+}
+.img-five1{
+    width: 40%;
+}
+
+
+
+
+
+
+.shop-one{
+    width: 3.62rem;
+    height: 1.61rem;
+    font-size: 0;
+    margin-left: 0.06rem;
+}
+.shop-one img{
+    width: 100%;
+    border-radius: 0.1rem;
+}
+
+
+
+.shop-two{
+    width: 3.41rem;
+    height: 1rem;
+    padding-left: 0.16rem;
+    padding-right: 0.16rem;
+    display: flex;
+    justify-content: space-around;
+}
+.shop-two div{
+    width: 0.68rem;
+    height: 1rem;
+    font-size: 0;
+}
+.shop-two div img{
+    width: 80%;
+    padding-left: 0.07rem;
+}
+.shop-two div p{
+    font-size: 0.1rem;
+    text-align: center;
+}
+
+
+
+.shop-three{
+    width: 3.5rem;
+    height: 0.18rem;
+    padding: 0.12rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.18rem;
+}
+
+
+
+.shop-four{
+    width: 3.75rem;
+    height: 0.57rem;
+    margin-bottom: 0.07rem;
+    font-size: 0;
+    display: flex;
+    overflow: auto;
+}
+.shop-four img{
+    width: 25%;
+    margin-left: 0.05rem;
+    margin-left: 0.1rem;
+    border-radius: 0.1rem;
+}
+
+.shop-five{
+    width: 3.62rem;
+    height: 2.35rem;
+    padding-bottom: 0.2rem;
+    margin-left: 0.06rem;
+}
+.five-aa{
+    width: 3.62rem;
+    height: 1.53rem;
+    background-color: red;
+}
+.five-aa img{
+    width:3.62rem;
+    height: 1.53rem;
+}
+.shop-five p:nth-child(2){
+    font-size: 0.16rem;
+    margin-top: 0.1rem;
+    margin-right: 0.85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shop-five p:nth-child(3){
+    font-size: 0.13rem;
+    margin-top: 0.1rem;
+    margin-right: 1.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pp{
+    display: flex;
+    justify-content: space-between;
+}
+.pp span:nth-child(1){
+    font-size: 0.1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+    color: gray;
+}
+.pp span:nth-child(2){
+    font-size: 0.12rem;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+    color: gray;
+}
+
+
+
+.shop-five-one{
+    width: 1.31rem;
+    height: 0.24rem;
+    margin-left: 1.22rem;
+    margin-right: 1.22rem;
+    padding-top: 0.06rem;
+    padding-bottom: 0.125rem;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.24rem;
+}
+
+
+
+
+
+
+
+
+.shop-six{
+    width: 3.75rem;
+    height: 3.96rem;
+    padding-top: 0.1rem;
+    margin-bottom: 0.08rem;
+}
+.six-a{
+    width: 3.75rem;
+    height: 0.18rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.125rem;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.2rem;
+}
+.six-b{
+    width: 3.62rem;
+    height: 2.91rem;
+    margin: 0rem 0.0625rem 0.2rem 0.0625rem;
+}
+.six-c{
+    width: 1.3rem;
+    height: 0.23rem;
+    padding-bottom: 0.125rem;
+    margin-left: 1.29rem;
+    margin-right: 1.29rem;
+    font-size: 0.16rem;
+}
+.six-b-a{
+    width: 3.58rem;
+    height: 1.93rem;
+    display: flex;
+}
+.six-b-b{
+    width: 3.58rem;
+    height: 0.95rem;
+    display: flex;
+}
+.six-left{
+    width: 2.24rem;
+    height: 1.93rem;
+    padding-right: 0.05rem;
+}
+.six-left img{
+    width: 100%;
+    border-radius: 0.1rem 0rem 0rem 0rem;
+}
+.six-right{
+    width: 1.34rem;
+    height: 1.93rem;
+    font-size: 0;
+}
+.six-right img:nth-child(1){
+    width: 100%;
+    border-radius: 0rem 0.1rem 0rem 0rem;
+}
+.six-right img:nth-child(2){
+    width: 100%;
+}
+.six-left-a{
+    width: 1.34rem;
+    height: 0.95rem;
+}
+.six-left-a img{
+    width: 100%;
+    border-radius: 0rem 0rem 0rem 0.1rem;
+}
+.six-left-b{
+    width: 2.24rem;
+    height: 0.95rem;
+    padding-left: 0.05rem;
+}
+.six-left-b img{
+    width: 100%;
+    border-radius: 0rem 0rem 0.1rem 0rem;
+}
+.six-left p{
+    font-size: 0.12rem;
+    color: white;
+    position: relative;
+    top: -0.3rem;
+    left: 0.1rem;
+}
+.six-right p:nth-child(3){
+    font-size: 0.12rem;
+    color: white;
+    position: relative;
+    top: -1.2rem;
+    left: 0.05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.six-right p:nth-child(4){
+    font-size: 0.12rem;
+    color: white;
+    position: relative;
+    top: -0.35rem;
+    left: 0.05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.six-left-a p{
+    font-size: 0.12rem;
+    color: white;
+    position: relative;
+    top: -0.35rem;
+    left: 0.05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.six-left-b p{
+    font-size: 0.12rem;
+    color: white;
+    position: relative;
+    top: -0.35rem;
+    left: 0.05rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+.h{
+    width: 3.62rem;
+    height: 0.184rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.125rem;
+    font-size: 0.16rem;
+    text-align: center;
+    font-weight: 800;
+}
+.h-one{
+    width: 3.62rem;
+    height: 2.6rem;
+    padding-left: 0.06rem;
+    margin-bottom: 0.5rem;
+}
+.h-two{
+    width: 3.62rem;
+    height: 1.53rem;
+    margin: 0 auto;
+}
+.h-two img{
+    width: 100%;
+}
+.h-two p:nth-child(2){
+    font-size: 0.16rem;
+    /* margin-right: 0.9rem; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.h-two p:nth-child(3){
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ppp{
+    display: flex;
+    justify-content: space-between;
+}
+.ppp span:nth-child(1){
+    font-size: 0.1rem;
+    margin-top: 0.2rem;
+    color: gray;
+}
+.ppp span:nth-child(2){
+    font-size: 0.12rem;
+    margin-top: 0.2rem;
+    color: gray;
+}

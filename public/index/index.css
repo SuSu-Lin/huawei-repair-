@@ -1,0 +1,673 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-size: 26.67vw;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#max{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 0.77rem;
+    overflow: hidden;
+}
+#shop{
+    width: 100%;
+    overflow: auto;
+    flex: 1;
+}
+
+#shop::-webkit-scrollbar{
+    display: none;
+}
+
+
+.router-link-active {
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+.top{
+    width: 3.75rem;
+    height: 0.41rem;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+}
+.top a{
+    display: inline-block;
+    width: 0.63rem;
+    height: 0.13rem;
+    margin-left: 0.1rem;
+}
+.top img{
+    width: 100%;
+}
+.top input{
+    width: 1.9rem;
+    height: 0.33rem;
+    background-color: whitesmoke;
+    border-radius: 0.15rem;
+    border: none;
+    outline: none;
+    margin-left: 0.05rem;
+    padding-left: 0.2rem;
+}
+.top-right{
+    width: 0.77rem;
+    height: 0.25rem;
+    font-size: 0;
+}
+.top-right img{
+    width: 30%;
+    margin-left: 0.1rem;
+}
+.top-right span{
+    font-size: 0.15rem;
+    position: relative;
+    top: -0.06rem;
+    right:-0.1rem;
+}
+
+.zero{
+    overflow: auto;
+}
+.zero::-webkit-scrollbar{
+    display: none;
+}
+.zero-a{
+    display: -moz-box; 
+    display: -webkit-box; 
+    display: box;
+}
+.zero-a a{
+    position: relative;
+    display:block!important;
+    width: 1rem;
+    line-height: 0.3rem;
+    background-size: cover;
+    color: rgb(65,61,62);
+    text-decoration: none;
+}
+.zero-a .name{
+    font-size: .14rem;
+}
+
+#footer{
+    width: 100%;
+    position: fixed;
+    top: 6.15rem;
+}
+.footer-but{
+    width: 3.75rem;
+    height: 0.55rem;
+    background-color:#f9f9f9;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-but div{
+    width: 0.75rem;
+    height: 0.55rem;
+    padding-top: 0.05rem;
+}
+.footer-but p{
+    color: black;
+    font-size: 0.12rem;
+}
+.img-yi{
+    width: 60%;
+}
+.img-two{
+    width: 40%;
+}
+.img-three{
+    width: 40%;
+}
+.img-four{
+    width: 40%;
+}
+.img-five{
+    width: 40%;
+}
+
+
+
+
+.tu{
+    width: 3.62rem;
+    height: 1.53rem;
+    margin-left: 0.06rem;
+}
+.tu img{
+    width: 100%;
+    border-radius: 0.15rem;
+}
+.guan{
+    width: 3.75rem;
+    height: 1.4rem;
+}
+.guan-one{
+    width: 3.66rem;
+    height: 0.88rem;
+    margin-left: 0.04rem;
+    margin-right: 0.04rem;
+    font-size: 0;
+}
+.guan-one img{
+    width: 100%;
+}
+.guan-one-top{
+    width: 3.66rem;
+    height: 0.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.guan-one-div{
+    width: 0.75rem;
+    height: 0.6rem;
+}
+.guan-one-div div{
+    width: 0.6rem;
+    height: 0.2rem;
+    margin-left: 0.06rem;
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+}
+.guan-one-top img{
+    width: 50%;
+}
+.guan-two{
+    width: 3.75rem;
+    
+    height: 0.1rem;
+}
+.guan-three{
+    width: 3.37rem;
+    height: 0.41rem;
+    margin-left: 0.18rem;
+    margin-right: 0.18rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.01rem solid gainsboro;
+    align-items: center;
+}
+.guan-three-one{
+    width: 0.51rem;
+    height: 0.41rem;
+    font-size: 0;
+    line-height: 0.55rem;
+    text-align: center;
+}
+.guan-three-one img{
+    width: 100%;
+}
+.guan-three-two{
+    width: 2.34rem;
+    height: 0.41rem;
+    font-size: 0.12rem;
+    line-height: 0.41rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 0.3rem;
+    font-weight: 800;
+}
+.guan-three-three{
+    width: 0.25rem;
+    height: 0.12rem;
+    font-size: 0.12rem;
+}
+.guan-four{
+    width: 3.62rem;
+    height: 6.67rem;
+    padding: 0.04rem 0.04rem 0.1rem 0.06rem;
+}
+.guan-four-one{
+    width: 3.62rem;
+    height: 5.14rem;
+}
+.guan-four-two{
+    margin-top: 0.03rem;
+    width: 3.62rem;
+    height: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.guan-four-two div{
+    width: 0.98rem;
+    height: 1.6rem;
+    background-color: ghostwhite;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    text-align: center;
+}
+.guan-four-two img{
+    width: 80%;
+}
+.guan-four-two p{
+    font-size: 0.12rem;
+    margin-bottom: 0.05rem;
+}
+.guan-four-one-a{
+    width: 3.62rem;
+    height: 2.55rem;
+    display: flex;
+    /* justify-content: space-around; */
+    display: flex;
+}
+
+.four-one-a-a{
+    width: 1.8rem;
+    height: 2.55rem;
+    margin-right: 0.02rem;
+}
+.four-one-a-a img{
+    width: 100%;
+    border-radius: 0.15rem 0rem 0rem 0rem;
+}
+.four-two-a-b{
+    width: 1.8rem;
+    height: 2.55rem;
+}
+.four-two-a-b div:nth-child(1){
+    width: 1.8rem;
+    height: 1.265rem;
+    margin-bottom: 0.02rem;
+}
+.four-two-a-b div:nth-child(2){
+    width: 1.8rem;
+    height: 1.265rem;
+    margin-bottom: 0.03rem;
+}
+
+
+.four-a{
+    width: 1.8rem;
+    height: 2.55rem;
+}
+.four-a img{
+    width: 100%;
+    border-radius: 0.15rem 0rem 0rem 0rem;
+}
+.img-a{
+    width: 100%;
+    border-radius: 0rem 0.15rem 0rem 0rem;
+}
+.img-b{
+    width: 100%;
+}
+.four-b{
+    width: 1.8rem;
+    height: 2.55rem;
+    align-items: baseline;
+}
+.four-b div:nth-child(1){
+    width: 1.8rem;
+    height: 1.26rem;
+}
+.four-b div:nth-child(2){
+    margin-top: 0.03rem;
+    width: 1.8rem;
+    height: 1.26rem;
+}
+.guan-four-one-b{
+    margin-top: 0.04rem;
+    width: 3.62rem;
+    height: 1.26rem;
+    display: flex;
+    justify-content: space-around;
+}
+.guan-four-one-b div{
+    width: 1.8rem;
+    height: 1.26rem;
+}
+.guan-four-one-b img{
+    width: 100%;
+}
+.guan-four-one-c{
+    margin-top: 0.04rem;
+    width: 3.62rem;
+    height: 1.26rem;
+    display: flex;
+    justify-content: space-around;
+}
+.guan-four-one-c div{
+    width: 1.8rem;
+    height: 1.26rem;
+}
+.guan-four-one-c img{
+    width: 100%;
+}
+.guan-four-one-c img{
+    width: 100%;
+}
+.guan-five{
+    width: 3.75rem;
+    height: 2.8rem;
+    margin-top: 0.2rem; 
+}
+.guan-five-b::-webkit-scrollbar{
+    display: none;
+}
+.guan-five-a{
+    width: 3.75rem;
+    height: 0.18rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.15rem;
+    font-size: 0.18rem;
+    text-align: center;
+}
+.guan-five-b{
+    width: 3.75rem;
+    height: 2.12rem;
+    padding-bottom: 0.17rem;
+    display: flex;
+    overflow: auto;
+    display: -moz-box; /*Firefox*/
+    display: -webkit-box; /*Safari,Opera,Chrome*/
+    display: box;
+}
+.guan-five-c{
+    width: 1.29rem;
+    height: 1.95rem;
+    margin-left: 0.06rem;
+    position: relative;
+    display:block!important;
+    background-size: cover;
+}
+.guan-five-d{
+    width: 1.29rem;
+    height: 1.33rem;
+}
+.guan-five-c p{
+    font-size: 0.14rem;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.ry{
+    width: 1.29rem;
+    height: 1.29rem;
+    margin-right: 0.2rem;
+    background-color: #f9f9f9;
+    border-radius: 0.15rem 0.15rem 0rem 0rem;
+    font-size: 0;
+    text-align: center;
+}
+.ry img{
+    width: 85%;
+}
+.zp{
+    width: 1.29rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    color: whitesmoke;
+    border-radius: 0rem 0rem 0.15rem 0.15rem;
+    background-color: #9b9b9b;
+}
+
+.guan-six{
+    width: 3.75rem;
+    height: 7.9rem;
+}
+.guan-six-a{
+    width: 3.75rem;
+    height: 0.18rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.15rem;
+    font-size: 0.18rem;
+    text-align: center;
+}
+.guan-six-b{
+    width: 3.62rem;
+    height: 4.86rem;
+    margin: 0.06rem 0.06rem 0.04rem 0.06rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.guan-six-b-c{
+    margin-top: 0.05rem;
+    width: 1.78rem;
+    height: 2.38rem;
+}
+.guan-six-y{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/40.jpg);
+    background-size: cover;
+    background-position: -0.55rem;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-q{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/42.jpg);
+    background-size: cover;
+    background-position: -0.55rem;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-w{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/41.jpg);
+    background-size: cover;
+    background-position: -0.55rem;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-e{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/43.jpg);
+    background-size: cover;
+    background-position: -0.55rem;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-p{
+    position: relative;
+    top: 0.9rem;
+    display: inline-block;
+    width: 1.78rem;
+    height: 0.24rem;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 0.12rem;
+    text-align: center;
+    color: white;
+    line-height: 0.24rem;
+    border-radius: 0rem 0rem 0.15rem 0.15rem;
+}
+.guan-six-b-c p{
+    font-size: 0.14rem;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.shouji{
+    font-size: 0.15rem;
+    text-align: center;
+}
+.guan-six-yy{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/60.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-qq{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/61.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-ww{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/66.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-ee{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/63.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-yyy{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/70.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-qqq{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/71.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-www{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/72.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-six-eee{
+    width: 1.78rem;
+    height: 1.78rem;
+    background-image: url(img/73.png);
+    background-size: cover;
+    background-color: ghostwhite;
+    border-radius: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+.guan-eight{
+    width: 3.62rem;
+    height: 2.14rem;
+    padding-left: 0.06rem;
+    padding-right: 0.06rem;
+    margin-top: 0.08rem;
+    margin-bottom: 0.6rem;
+}
+.guan-eight-one{
+    width: 3.62rem;
+    height: 0.31rem;
+    padding: 0.05rem 0rem;
+    font-size: 0;
+    line-height: 0.31rem;
+    border-bottom: 0.01rem solid gray;
+}
+.guan-eight-one span:nth-child(1){
+    color: black;
+    font-size: 0.18rem;
+    padding-right: 1rem;
+}
+.guan-eight-one span:nth-child(2){
+    color: black;
+    font-size: 0.18rem;
+}
+.guan-eight-two{
+    width: 3.62rem;
+    height: 0.51rem;
+    padding: 0.1rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.guan-eight-two div{
+    width: 0.37rem;
+    height: 0.53rem;
+    text-align: center;
+    font-size: 0;
+}
+.guan-eight-two div img{
+    width: 100%;
+}
+.guan-eight-two div p{
+    font-size: 0.12rem;
+}
+.guan-eight-three{
+    width: 3.62rem;
+    height: 0.76rem;
+    padding: 0.05rem 0rem 0.18rem 0rem;
+    font-size: 0;
+    text-align: center;
+}
+.guan-eight-three a{
+    font-size: 0.16rem;
+    color: black;
+    margin-right: 0.05rem;
+    text-decoration: none;
+}
+.guan-eight-three p{
+    font-size: 0.12rem;
+    margin-top: 0.06rem;
+    color: gray;
+}

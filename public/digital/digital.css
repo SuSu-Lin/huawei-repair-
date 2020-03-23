@@ -1,0 +1,136 @@
+body{
+    background-color: white;
+}
+#digital-max{
+    width: 3.75rem;
+    height: 100%;
+    font-size: 0;
+}
+.onea{
+    width: 3.5rem;
+    padding: 0rem 0.125rem 0rem 0.125rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.twoa{
+    margin-top: 0.1rem;
+    width: 1.65rem;
+    height: 2.68rem;
+    padding-left: 0.04rem;
+    padding-right: 0.04rem;
+}
+.threea{
+    width: 1.65rem;
+    height: 1.7rem;
+    margin-bottom: 0.09rem;
+    font-size: 0;
+}
+.threea img{
+    width: 100%;
+}
+.foura{
+    width: 1.58rem;
+    height: 0.19rem;
+    padding-left: 0.0625rem;
+    padding-right: 0.0625rem;
+    margin-bottom: 0.03rem;
+    font-size: 0.14rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 0.19rem;
+}
+.fivea{
+    width: 1.58rem;
+    height: 0.145rem;
+    padding-left: 0.0625rem;
+    padding-right: 0.0625rem;
+    margin-bottom: 0.09rem;
+    font-size: 0.08rem;
+    color: gray;
+    text-align: center;
+    line-height: 0.145rem;
+}
+.sixa{
+    width: 1.58rem;
+    height: 0.25rem;
+    margin: 0rem 0.0625rem 0.16rem 0.0625rem;
+    display: flex;
+}
+.sixa-a{
+    width: 0.79rem;
+    height: 0.25rem;
+    font-size: 0;
+    text-align: center;
+    border-left: 0.01rem dashed gray;
+    border-bottom: 0.01rem dashed gainsboro;
+}
+.sixa-a span:nth-child(1){
+    font-size: 0.1rem;
+}
+.sixa-a span:nth-child(2){
+    font-size: 0.16rem;
+    font-weight: 800;
+    line-height: 0.25rem;
+}
+.sixa-b{
+    width: 0.79rem;
+    height: 0.25rem;
+    font-size: 0;
+    border-right: 0.01rem dashed gray;
+    border-bottom: 0.01rem dashed gainsboro;
+}
+.sixa-b span:nth-child(1){
+    font-size: 0.12rem;
+    color: black;
+}
+.sixa-b span:nth-child(2){
+    font-size: 0.12rem;
+    font-weight: 800;
+    color: red;
+    text-align: center;
+    line-height: 0.25rem;
+    margin-left: 0.1rem;
+}
+
+
+
+
+#footer-honour{
+    width: 100%;
+    position: fixed;
+    top: 6.15rem;
+}
+.footer-honour-but{
+    width: 3.75rem;
+    height: 0.55rem;
+    background-color:#f9f9f9;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-honour-but div{
+    width: 0.75rem;
+    height: 0.55rem;
+    padding-top: 0.05rem;
+}
+.footer-honour-but p{
+    color: black;
+    font-size: 0.12rem;
+}
+.img-honour-one{
+    width: 40%;
+}
+.img-honour-two{
+    width: 40%;
+}
+.img-honour-three{
+    width: 40%;
+}
+.img-honour-four{
+    width: 40%;
+}
+.img-honour-five{
+    width: 40%;
+}

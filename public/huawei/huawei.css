@@ -1,0 +1,105 @@
+#hw-max{
+    width: 100%;
+    height: 100%;
+}
+#shopq{
+    width: 3.75rem;
+    font-size: 0;
+}
+.oneq{
+    width: 3.75rem;
+    height: 5rem;
+    display: flex;
+}
+.oneq img{
+    width: 100%;
+}
+.twoq{
+    width: 3.75rem;
+    height: 0.31rem;
+    font-size: 0;
+    padding-bottom: 0.1rem;
+}
+.twoq img{
+    width: 100%;
+}
+.threeq{
+    width: 3.75rem;
+    height: 2.88rem;
+    font-size: 0;
+}
+.threeq img{
+    width: 100%;
+}
+.fourq{
+    width: 3.75rem;
+    height: 0.32rem;
+    font-size: 0;
+}
+.fourq img{
+    width: 100%;
+}
+.fiveq{
+    width: 3.75rem;
+    height: 4.22rem;
+    font-size: 0;
+}
+.fiveq img{
+    width: 100%;
+}
+.sixq{
+    width: 3.75rem;
+    height: 2.32rem;
+    font-size: 0;
+}
+.sixq img{
+    width: 100%;
+}
+.sevenq{
+    width: 3.75rem;
+    height: 3.92rem;
+    font-size: 0;
+}
+.sevenq img{
+    width: 100%;
+}
+.eightq{
+    width: 3.75rem;
+    height: 2.37rem;
+    font-size: 0;
+}
+.eightq img{
+    width: 100%;
+}
+.nineq{
+    width: 3.75rem;
+    height: 0.6rem;
+    font-size: 0;
+}
+.nineq img{
+    width: 100%;
+}
+.tenq{
+    width: 3.75rem;
+    height: 2.3rem;
+    font-size: 0;
+}
+.tenq img{
+    width: 100%;
+}
+.ten-a{
+    width: 3.75rem;
+    height: 1.22rem;
+    font-size: 0;
+}
+.ten-aq img{
+    width: 100%;
+}
+.ten-bq{
+    width: 3.75rem;
+    height: 1.63rem;
+    font-size: 0;
+}
+.ten-bq img{
+    width: 100%;
+}

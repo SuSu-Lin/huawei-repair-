@@ -1,0 +1,254 @@
+#honour-max{
+    width: 100%;
+    height: 100%;
+}#shopw{
+    width: 3.75rem;
+    font-size: 0;
+}
+
+.one{
+    width: 3.75rem;
+    height: 0.36rem;
+}
+.one img{
+    width: 100%;
+}
+.one span{
+    font-weight: 800;
+    font-size: 0.12rem;
+    position: relative;
+    color: white;
+    left: 1.5rem;
+    top: -0.25rem;
+}
+.two{
+    width: 3.75rem;
+    height: 4.45rem;
+    font-size: 0;
+}
+.two img{
+    width: 100%;
+}
+.three{
+    width: 3.75rem;
+    height: 0.3rem;
+    font-size: 0;
+}
+.three img{
+    width: 100%;
+}
+.four{
+    width: 3.75rem;
+    height: 0.7rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.four img:nth-child(1){
+    width: 100%;
+    height: 10%;
+}
+.four img:nth-child(2){
+    width: 100%;
+}
+.four img:nth-child(3){
+    width: 100%;
+    height: 10%;
+}
+.five{
+    width: 3.75rem;
+    height: 0.45rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.five img{
+    width: 100%;
+}
+.six{
+    width: 3.75rem;
+    height: 0.79rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.six img{
+    width: 100%;
+}
+.seven{
+    width: 3.75rem;
+    height: 2.25rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.seven img{
+    width: 100%;
+}
+.eight{
+    width: 3.75rem;
+    height: 0.78rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.eight img{
+    width: 100%;
+}
+.nine{
+    width: 3.75rem;
+    height: 2.98rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.nine img{
+    width: 100%;
+}
+.ten{
+    width: 3.75rem;
+    height: 2.91rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.ten img{
+    width: 100%;
+}
+.ten-a{
+    width: 3.75rem;
+    height: 2.90rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.ten-a img{
+    width: 100%;
+}
+.ten-b{
+    width: 3.75rem;
+    height: 2.88rem;
+    font-size: 0;
+    background-color: #bb0119;
+}
+.ten-b img{
+    width: 100%;
+}
+.a{
+    width: 3.75rem;
+    background-color: #bb0119;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.b{
+    width: 1.79rem;
+    height: 2.67rem;
+    margin-bottom: 0.05rem;
+    background-color: white;
+}
+.c{
+    width: 1.79rem;
+    height: 1.79rem;
+    font-size: 0;
+}
+.c img{
+    width: 100%;
+}
+.d{
+    width: 1.69rem;
+    height: 0.15rem;
+    padding-top: 0.09rem;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    font-size: 0.13rem;
+    text-align: center;
+    line-height: 0.15rem;
+}
+.e{
+    width: 1.69rem;
+    height: 0.125rem;
+    padding-top: 0.03rem;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    font-size: 0.1rem;
+    text-align: center;
+    line-height: 0.15rem;
+}
+.f{
+    margin-top: 0.1rem;
+    margin-left: 0.55rem;
+    border-radius: 0.2rem;
+    width: 0.625rem;
+    height: 0.13rem;
+    padding: 0.04rem 0.05rem 0.03rem 0.05rem;
+    background-color:black;
+    font-size: 0.16rem;
+    color: white;
+    text-align: center;
+    line-height: 0.13rem;
+}
+.di{
+    width: 3.75rem;
+    height: 0.79rem;
+    margin-top: 0.1rem;
+    background-color: #bb0119;
+}
+.di img{
+    width: 100%;
+}
+.di-a{
+    width: 3.75rem;
+    height: 1.51rem;
+    background-color: #bb0119;
+}
+.di-a img{
+    width: 100%;
+}
+.di-b{
+    width: 3.75rem;
+    height: 0.28rem;
+    background-color: #bb0119;
+    font-size: 0;
+    padding-top: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+.di-b img{
+    width: 100%;
+}
+
+
+
+
+
+
+#footer-honour{
+    width: 100%;
+    position: fixed;
+    top: 6.15rem;
+}
+.footer-honour-but{
+    width: 3.75rem;
+    height: 0.55rem;
+    background-color:#f9f9f9;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-honour-but div{
+    width: 0.75rem;
+    height: 0.55rem;
+    padding-top: 0.05rem;
+}
+.footer-honour-but p{
+    color: black;
+    font-size: 0.12rem;
+}
+.img-honour-one{
+    width: 40%;
+}
+.img-honour-two{
+    width: 40%;
+}
+.img-honour-three{
+    width: 40%;
+}
+.img-honour-four{
+    width: 40%;
+}
+.img-honour-five{
+    width: 40%;
+}

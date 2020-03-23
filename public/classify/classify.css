@@ -1,0 +1,349 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-size: 26.67vw;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#max{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#classify-header{
+    width: 100%;
+    height: 0.77rem;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 1000;
+}
+#shop{
+    width: 100%;
+    height: 100%;
+    /* overflow: auto; */
+    /* margin-top: 0.77rem; */
+}
+#shop::-webkit-scrollbar{
+    display: none;
+}
+#classify-footer{
+    width: 100%;
+    position: fixed;
+    top: 6.15rem;
+}
+.footer-but{
+    width: 3.75rem;
+    height: 0.55rem;
+    background-color:#f9f9f9;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-but div{
+    width: 0.75rem;
+    height: 0.55rem;
+    padding-top: 0.05rem;
+}
+.footer-but p{
+    color: black;
+    font-size: 0.12rem;
+}
+.img-oone{
+    width: 40%;
+}
+.img-two{
+    width: 40%;
+}
+.img-three{
+    width: 40%;
+}
+.img-four{
+    width: 40%;
+}
+.img-five{
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+.shop-shop{
+    width: 100%;
+    height: 0.44rem;
+    font-size: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.input{
+    width: 2.62rem;
+    height: 0.33rem;
+    background-color: #F2F2F2;
+    outline: none;
+    border: none;
+    border-radius: 0.15rem;
+    padding-left: 0.15rem;
+}
+.input img{
+    width: 0.15rem;
+    height: 0.15rem;
+    position: absolute;
+    right: 0.15rem;
+    top: 0.07rem;
+}
+.gd{
+    width: 0.22rem;
+    height: 0.22rem;
+}
+.gd img{
+    width: 120%;
+}
+
+
+
+
+.content{
+    flex: 1;
+    width: 3.75rem;
+    height: 6.23rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0.44rem;
+    /* margin-top: 0.44rem; */
+    justify-content: space-between;
+}
+
+
+
+
+.shop-left{
+    width: 1.02rem;
+    height: 6.6rem;
+    overflow: auto;
+}
+.shop-left::-webkit-scrollbar{
+    display:none
+}
+.shop-left div{
+    width: 1.02rem;
+    height: 0.5rem;
+    font-size: 0.15rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+
+.shop-right{
+    width: 2.73rem;
+    height: 5.73rem;
+    overflow: auto;
+}
+.shop-right-one{
+    width: 2.73rem;
+    height: 1.47rem;
+}
+.shop-right-one div{
+    margin: 0 auto;
+    width: 2.55rem;
+    height: 0.7rem;
+    margin-top: 0.02rem;
+    font-size: 0;
+}
+.shop-right-one div img{
+    width: 100%;
+    border-radius: 0.1rem;
+}
+.shop-right-two{
+    width: 2.73rem;
+    height: 0.4rem;
+    font-size: 0;
+    display: flex;
+    overflow: auto;
+}
+.shop-right-two::-webkit-scrollbar{
+    display: none;
+}
+.shop-right-two img{
+    width: 28%;
+    border-radius: 0.05rem;
+    margin-right: 0.1rem;
+}
+
+
+.shop-right-three{
+    width: 2.73rem;
+    height: 8rem;
+    margin-top: 0.08rem;
+    margin-bottom: 0.52rem;
+}
+.shop-right-a{
+    width: 2.73rem;
+    height: 3.79rem;
+}
+.shouji{
+    width: 2.73rem;
+    height: 0.16rem;
+    padding: 0.16rem 0rem 0.08rem 0rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.16rem;
+}
+.shouji-a{
+    width: 2.5rem;
+    height: 3.37rem;
+    padding-left: 0.125rem;
+    padding-right: 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shouji-a div{
+    width: 0.66rem;
+    height: 1.12rem;
+    font-size: 0;
+}
+.shouji-a div img{
+    width: 100%;
+}
+.shouji-a div p{
+    /* width: 0.66rem; */
+    /* height: 0.3rem; */
+    font-size: 0.12rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.shop-right-four{
+    width: 2.73rem;
+    height: 1.54rem;
+}
+.four-a{
+    width: 2.73rem;
+    height: 0.168rem;
+    padding-top: 0.16rem;
+    padding-bottom: 0.08rem;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.168rem;
+}
+.four-b{
+    width: 2.5rem;
+    height: 1.12rem;
+    padding-left: 0.125rem;
+    padding-right: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.four-b div{
+    width: 0.66rem;
+    height: 1.12rem;
+    font-size: 0;
+}
+.four-b div img{
+    width: 60%;
+}
+.four-b div p{
+    font-size: 0.12rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.shop-right-five{
+    width: 2.73rem;
+    height: 2.66rem;
+}
+.five-a{
+    width: 2.73rem;
+    height: 0.168rem;
+    padding-top: 0.16rem;
+    padding-bottom: 0.08rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.168rem;
+}
+.five-b{
+    width: 2.5rem;
+    height: 2.24rem;
+    padding-left: 0.125rem;
+    padding-right: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.five-b div{
+    width: 0.66rem;
+    height: 1.12rem;
+    font-size: 0;
+}
+.five-b div img{
+    width: 100%;
+}
+.five-b div p{
+    font-size: 0.12rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
